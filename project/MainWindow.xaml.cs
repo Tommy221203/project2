@@ -35,7 +35,7 @@ namespace project
 
             if (string.IsNullOrWhiteSpace(txtnome.Text)||string.IsNullOrWhiteSpace (txtcognome.Text)||date.SelectedDate ==null)
                 {
-                    MessageBox.Show("Inserire tutti i campi");
+                MessageBox.Show("Inserire tutti i campi");
                 }
             else if (data < DateTime.Now)
             {
